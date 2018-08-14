@@ -1,0 +1,74 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "id": 1,
+            "name": "胜负",
+            "type": 1,
+            "options":[
+                {
+                    "type": 1,
+                    "name": "平局",
+                    "value": false
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "type": 2,
+            "name": "十杀",
+            "options":[]
+        },
+        {
+            "id": 3,
+            "type": 2,
+            "name": "一血时间",
+            "options":[
+                {
+                    "type": 2,
+                    "name": "1min内",
+                    "value": false
+                },
+                {
+                    "type": 2,
+                    "name": "6min内",
+                    "value": false
+                },
+                {
+                    "type": 2,
+                    "name": "10min内",
+                    "value": false
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "type": 2,
+            "name": "一血方",
+            "options":[]
+        },
+        {
+            "id": 5,
+            "type": 3,
+            "name": "比分",
+            "options":[
+                {
+                    "id": 1,
+                    "type": 2,
+                    "name": "1:0"
+                },
+                {
+                    "id": 2,
+                    "type": 2,
+                    "name": "2:0"
+                },
+                {
+                    "id": 3,
+                    "type": 2,
+                    "name": "3:0"
+                }
+            ]
+        }
+    ]
+}
